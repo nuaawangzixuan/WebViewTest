@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/id_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+
+        <EditText
+            android:id="@+id/urltext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_background"
+            android:focusable="true"
+            android:imeOptions="actionSearch"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:text=""
+            android:layout_marginTop="5dp"
+            android:paddingRight="70dp"
+            android:paddingLeft="5dp"
+
+
+            />
+
+        <Button
+            android:id="@+id/searchbutton"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:drawableBottom="@color/colorPrimary"
+            android:text="搜索"
+            android:singleLine="true"
+            android:background="#00000000"
+
+            ></Button>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:visibility="gone"
+        android:progressDrawable="@drawable/progressbar"
+
+        />
+    <WebView
+        android:layout_weight="200"
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

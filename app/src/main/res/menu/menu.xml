@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/id_alert_item" android:title="Alert"/>
+    <item android:id="@+id/id_certificate_item" android:title="certificate"/>
+    <item android:id="@+id/id_intercept_item" android:title="Intercept"/>
+    <item android:id="@+id/id_replace_item" android:title="Replace"/>
+    <item android:id="@+id/id_cache_item" android:title="Cache"/>
+    <item android:id="@+id/id_normal_item" android:title="normal"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/refresh"
+        android:title="xieru"
+        app:showAsAction="ifRoom" />
+
+</menu>

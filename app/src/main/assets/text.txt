@@ -1,0 +1,5 @@
+unction myFunction(){
+	alert("Alert弹窗测试");
+}unction myFunction(){
+ 	alert("Alert弹窗测试");
+ } } } } }

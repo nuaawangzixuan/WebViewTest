@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>王子炫HTML学习记录</title>
+    <meta name="keywords" content="HTML5">
+    <meta name="description" content="HTML5学习记录">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script type="text/javascript" src="./script/index.js" defer></script>
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>　
+</head>
+<body>
+<ul class="navbar">
+    <li class="selected"><a href="#">主页</a></li>
+    <li><a href="#">HTML</a></li>
+    <li id="main"><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+    <li> <a href="#">Alert</a></li>
+</ul>
+<div class="content">
+    <div class="list">
+        <h5>第一个HTML实例</h5>
+        <div class="fakeimg" >
+            <p>
+                &lt;!DOCTYPE html&gt;
+                <br/>
+                &lt;html&gt;
+                <br/>
+                &lt;head&gt;
+                <br/>
+                &lt;title&gt;王子炫&lt;/tile&gt;
+                <br/>
+                &lt;/head&gt;
+                <br/>
+                &lt;body&gt;
+                <br/>
+                &lt;h1&gt;第一个标题&lt;/h1&gt;
+                <br/>
+                &lt;/p&gt;第一个段落&lt;/p&gt;
+                <br/>
+                &lt;/body&gt;
+                <br/>
+                &lt;/html&gt;
+            </p>
+        </div>
+    </div>
+    <div class="list">
+        <h5>什么是 HTML？</h5>
+        <div class="fakeimg" >
+            <ul type="disc">
+                <p>HTML 是用来描述网页的一种语言。</p>
+                <li>HTML 指的是超文本标记语言 (Hyper Text Markup Language)</li>
+                <li>HTML 不是一种编程语言，而是一种标记语言 (markup language)</li>
+                <li>标记语言是一套标记标签 (markup tag)</li>
+                <li>HTML 使用标记标签来描述网页</li>
+            </ul>
+        </div>
+        <h5>HTML 标签</h5>
+        <div class="fakeimg">
+            <ul type="disc">
+                <p>HTML 标记标签通常被称为 HTML 标签 (HTML tag)。</p>
+                <li>HTML 标签是由尖括号包围的关键词，比如 &lt;html&gt;</li>
+                <li>HTML 标签通常是成对出现的，比如 &lt;b&gt;和 &lt;/b&gt;</li>
+                <li>标签对中的第一个标签是开始标签，第二个标签是结束标签</li>
+                <li>开始和结束标签也被称为开放标签和闭合标签</li>
+            </ul>
+        </div>
+    </div>
+    <div class="list">
+        <h5>css盒模型展示</h5>
+        <center>
+            <img src="./img/css.jpg" />
+        </center>
+        <h5>代码展示</h5>
+        <div class="fakeimg">
+            <p>img{<br/>
+                width: 100%;<br/>
+                height: 100%;<br/>
+                max-width: 500px;<br/>
+                text-align: center;<br/>
+                }<br/>
+            </p>
+        </div>
+    </div>
+    <div class="list">
+        <h5>JavaScript展示</h5>
+        <div id="Progress"></div>
+        <div id="Bar">10%</div>
+        <button onclick="move()">点我</button>
+    </div>
+    <div class="list">
+        <h5>Alert展示</h5>
+        <input type="button" onclick="myFunction()" value="Alert测试" />
+    </div>
+</div>
+</body>
+</html>
